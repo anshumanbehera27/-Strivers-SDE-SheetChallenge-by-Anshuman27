@@ -1,4 +1,4 @@
-package pwAssiment.Array;
+package pwAssiment.Array.TwoDArray;
 
 public class FIndDuplicate {
     public int findDuplicate(int[] nums) {

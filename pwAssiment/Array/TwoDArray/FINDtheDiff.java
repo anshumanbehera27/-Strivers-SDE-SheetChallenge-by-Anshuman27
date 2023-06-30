@@ -1,4 +1,4 @@
-package pwAssiment.Array.Array2d;
+package pwAssiment.Array.TwoDArray;
 
 import java.util.ArrayList;
 import java.util.HashSet;
