@@ -25,9 +25,10 @@ public class ZigZagOrderTraversal {
                         }
                         if (level % 2 == 0) ans.add(temp);
                         else {
-                                Collections.reverse(temp);
-                                ans.add(temp);
+                             Collections.reverse(temp);
+                                ans.add( temp);
                         }
+                        level++  ;
                 }
                 return ans;
 
