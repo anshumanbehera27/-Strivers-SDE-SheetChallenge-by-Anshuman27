@@ -5,6 +5,23 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 public class ValidParenthesis {
+    public boolean isValid(String s) {
+        Stack<Character> st = new Stack<Character>();
+        int n  = s.length();
+        for(int i =  0  ; i < n ; i++){
+            if(s.charAt(i) == '{' || s.charAt(i) == '(' || s.charAt(i) == '['){
+                st.push( s.charAt(i)) ;
+            }
+            else {
+                st.pop();
+            }
+        }
+        if(st.isEmpty()) return true ;
+
+        return false ;
+    }
+
+
     public static boolean isValidParenthesis(String expression) {
        // Write your code here.
         // creat a stack to store the all of the elelemtn

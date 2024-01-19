@@ -2,10 +2,13 @@ package Contest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class makeaStringSubsequance {
     public boolean canMakeSubsequence(String str1, String str2) {
         // Find the length of the Two String
+
+
         int str1len = str1.length() ;
         int str2len = str2.length() ;
         // we have to make a two pointer left and right
